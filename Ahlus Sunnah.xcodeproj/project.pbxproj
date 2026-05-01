@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 77;
+    objects = {
+
+/* Begin PBXFileReference section */
+        5570C6EC2EC2606F00349508 /* Ahlus Sunnah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ahlus Sunnah.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+        5570C7102EC2612200349508 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+        EDC4AC60C80D42D88D64C742 /* Ahlus Sunnah Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ahlus Sunnah Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+        2D488098FCCC47F6B6EB0A04 /* Ahlus Sunnah Watch App */ = {
+            isa = PBXFileSystemSynchronizedRootGroup;
+            path = "Ahlus Sunnah Watch App";
+            sourceTree = "<group>";
+        };
+        5570C6EE2EC2606F00349508 /* Ahlus Sunnah */ = {
+            isa = PBXFileSystemSynchronizedRootGroup;
+            path = "Ahlus Sunnah";
+            sourceTree = "<group>";
+        };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        5570C6E92EC2606F00349508 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        CD095A23D46444CC8E018EBD /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        5570C6E32EC2606F00349508 = {
+            isa = PBXGroup;
+            children = (
+                5570C6EE2EC2606F00349508 /* Ahlus Sunnah */,
+                5570C70F2EC2612200349508 /* Frameworks */,
+                5570C6ED2EC2606F00349508 /* Products */,
+                2D488098FCCC47F6B6EB0A04 /* Ahlus Sunnah Watch App */,
+            );
+            sourceTree = "<group>";
+        };
+        5570C6ED2EC2606F00349508 /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                5570C6EC2EC2606F00349508 /* Ahlus Sunnah.app */,
+                EDC4AC60C80D42D88D64C742 /* Ahlus Sunnah Watch App.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        5570C70F2EC2612200349508 /* Frameworks */ = {
+            isa = PBXGroup;
+            children = (
+                5570C7102EC2612200349508 /* UIKit.framework */,
+            );
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        5570C6EB2EC2606F00349508 /* Ahlus Sunnah */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 5570C6F72EC2607000349508 /* Build configuration list for PBXNativeTarget "Ahlus Sunnah" */;
+            buildPhases = (
+                5570C6E82EC2606F00349508 /* Sources */,
+                5570C6E92EC2606F00349508 /* Frameworks */,
+                5570C6EA2EC2606F00349508 /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            fileSystemSynchronizedGroups = (
+                5570C6EE2EC2606F00349508 /* Ahlus Sunnah */,
+            );
+            name = "Ahlus Sunnah";
+            packageProductDependencies = (
+            );
+            productName = "Ahlus Sunnah";
+            productReference = 5570C6EC2EC2606F00349508 /* Ahlus Sunnah.app */;
+            productType = "com.apple.product-type.application";
+        };
+        6CFEF6A6958B4C358256466E /* Ahlus Sunnah Watch App */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 8224A2A150EF4874961B7278 /* Build configuration list for PBXNativeTarget "Ahlus Sunnah Watch App" */;
+            buildPhases = (
+                80B2362124424E3988C993D9 /* Sources */,
+                CD095A23D46444CC8E018EBD /* Frameworks */,
+                AE7EAA4C975E4CC7A7765BC2 /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            fileSystemSynchronizedGroups = (
+                2D488098FCCC47F6B6EB0A04 /* Ahlus Sunnah Watch App */,
+            );
+            name = "Ahlus Sunnah Watch App";
+            packageProductDependencies = (
+            );
+            productName = "Ahlus Sunnah Watch App";
+            productReference = EDC4AC60C80D42D88D64C742 /* Ahlus Sunnah Watch App.app */;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        5570C6E42EC2606F00349508 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = 1;
+                LastSwiftUpdateCheck = 2610;
+                LastUpgradeCheck = 2640;
+                TargetAttributes = {
+                    5570C6EB2EC2606F00349508 = {
+                        CreatedOnToolsVersion = 26.1;
+                    };
+                    6CFEF6A6958B4C358256466E = {
+                        CreatedOnToolsVersion = 26.1;
+                    };
+                };
+            };
+            buildConfigurationList = 5570C6E72EC2606F00349508 /* Build configuration list for PBXProject "Ahlus Sunnah" */;
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = 5570C6E32EC2606F00349508;
+            minimizedProjectReferenceProxies = 1;
+            preferredProjectObjectVersion = 77;
+            productRefGroup = 5570C6ED2EC2606F00349508 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                5570C6EB2EC2606F00349508 /* Ahlus Sunnah */,
+                6CFEF6A6958B4C358256466E /* Ahlus Sunnah Watch App */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        5570C6EA2EC2606F00349508 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        AE7EAA4C975E4CC7A7765BC2 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        5570C6E82EC2606F00349508 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        80B2362124424E3988C993D9 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        5570C6F52EC2607000349508 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                DEAD_CODE_STRIPPING = YES;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                DEVELOPMENT_TEAM = N6B4CH2936;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_TESTABILITY = YES;
+                ENABLE_USER_SCRIPT_SANDBOXING = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu17;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+                MTL_FAST_MATH = YES;
+                ONLY_ACTIVE_ARCH = YES;
+                STRING_CATALOG_GENERATE_SYMBOLS = YES;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            };
+            name = Debug;
+        };
+        5570C6F62EC2607000349508 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_COMMA = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INFINITE_RECURSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+                CLANG_WARN_STRICT_PROTOTYPES = YES;
+                CLANG_WARN_SUSPICIOUS_MOVE = YES;
+                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                COPY_PHASE_STRIP = NO;
+                DEAD_CODE_STRIPPING = YES;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                DEVELOPMENT_TEAM = N6B4CH2936;
+                ENABLE_NS_ASSERTIONS = NO;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_USER_SCRIPT_SANDBOXING = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu17;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+                MTL_ENABLE_DEBUG_INFO = NO;
+                MTL_FAST_MATH = YES;
+                STRING_CATALOG_GENERATE_SYMBOLS = YES;
+                SWIFT_COMPILATION_MODE = wholemodule;
+            };
+            name = Release;
+        };
+        5570C6F82EC2607000349508 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEAD_CODE_STRIPPING = YES;
+                DEVELOPMENT_TEAM = N6B4CH2936;
+                ENABLE_APP_SANDBOX = YES;
+                ENABLE_HARDENED_RUNTIME = YES;
+                ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+                ENABLE_PREVIEWS = YES;
+                ENABLE_USER_SELECTED_FILES = readonly;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_CFBundleDisplayName = "Ahlus Sunnah";
+                INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide accurate prayer times";
+                INFOPLIST_KEY_NSCalendarsUsageDescription = "Allow access to show your system calendar events on the Hijri calendar.";
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                "LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+                    "$(inherited)",
+                    "@executable_path/../Frameworks",
+                );
+                MACOSX_DEPLOYMENT_TARGET = 14.0;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.muhammad.alam.AhlusSunnah;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                REGISTER_APP_GROUPS = YES;
+                SDKROOT = auto;
+                STRING_CATALOG_GENERATE_SYMBOLS = YES;
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+                SUPPORTS_MACCATALYST = NO;
+                SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+                SWIFT_APPROACHABLE_CONCURRENCY = YES;
+                SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+                SWIFT_VERSION = 6.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        5570C6F92EC2607000349508 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEAD_CODE_STRIPPING = YES;
+                DEVELOPMENT_TEAM = N6B4CH2936;
+                ENABLE_APP_SANDBOX = YES;
+                ENABLE_HARDENED_RUNTIME = YES;
+                ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+                ENABLE_PREVIEWS = YES;
+                ENABLE_USER_SELECTED_FILES = readonly;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_CFBundleDisplayName = "Ahlus Sunnah";
+                INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide accurate prayer times";
+                INFOPLIST_KEY_NSCalendarsUsageDescription = "Allow access to show your system calendar events on the Hijri calendar.";
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                "LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+                    "$(inherited)",
+                    "@executable_path/../Frameworks",
+                );
+                MACOSX_DEPLOYMENT_TARGET = 14.0;
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.muhammad.alam.AhlusSunnah;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                REGISTER_APP_GROUPS = YES;
+                SDKROOT = auto;
+                STRING_CATALOG_GENERATE_SYMBOLS = YES;
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+                SUPPORTS_MACCATALYST = NO;
+                SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+                SWIFT_APPROACHABLE_CONCURRENCY = YES;
+                SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+                SWIFT_VERSION = 6.0;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+        E2E7DB27733E467C804EB69A /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEVELOPMENT_TEAM = N6B4CH2936;
+                ENABLE_PREVIEWS = YES;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_CFBundleDisplayName = "Ahlus Sunnah";
+                INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide accurate prayer times";
+                INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+                INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.muhammad.alam.AhlusSunnah;
+                INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.muhammad.alam.AhlusSunnah.watchkitapp;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SDKROOT = watchos;
+                SKIP_INSTALL = YES;
+                STRING_CATALOG_GENERATE_SYMBOLS = YES;
+                SWIFT_APPROACHABLE_CONCURRENCY = YES;
+                SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+                SWIFT_VERSION = 6.0;
+                TARGETED_DEVICE_FAMILY = 4;
+                WATCHOS_DEPLOYMENT_TARGET = 10.0;
+            };
+            name = Release;
+        };
+        E8670637D216404698C156D6 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEVELOPMENT_TEAM = N6B4CH2936;
+                ENABLE_PREVIEWS = YES;
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_CFBundleDisplayName = "Ahlus Sunnah";
+                INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide accurate prayer times";
+                INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+                INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.muhammad.alam.AhlusSunnah;
+                INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = com.muhammad.alam.AhlusSunnah.watchkitapp;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SDKROOT = watchos;
+                SKIP_INSTALL = YES;
+                STRING_CATALOG_GENERATE_SYMBOLS = YES;
+                SWIFT_APPROACHABLE_CONCURRENCY = YES;
+                SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+                SWIFT_VERSION = 6.0;
+                TARGETED_DEVICE_FAMILY = 4;
+                WATCHOS_DEPLOYMENT_TARGET = 10.0;
+            };
+            name = Debug;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        5570C6E72EC2606F00349508 /* Build configuration list for PBXProject "Ahlus Sunnah" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                5570C6F52EC2607000349508 /* Debug */,
+                5570C6F62EC2607000349508 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        5570C6F72EC2607000349508 /* Build configuration list for PBXNativeTarget "Ahlus Sunnah" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                5570C6F82EC2607000349508 /* Debug */,
+                5570C6F92EC2607000349508 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        8224A2A150EF4874961B7278 /* Build configuration list for PBXNativeTarget "Ahlus Sunnah Watch App" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                E8670637D216404698C156D6 /* Debug */,
+                E2E7DB27733E467C804EB69A /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = 5570C6E42EC2606F00349508 /* Project object */;
+}
